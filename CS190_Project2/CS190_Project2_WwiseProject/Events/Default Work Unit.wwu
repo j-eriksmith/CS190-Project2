@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="WindBlast" ID="{E46C95FD-5800-4F56-B5E5-95EEEB0FEC83}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A845E7DB-11A7-4AA8-B956-1261B95BEA26}" ShortID="678173266" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{5EB48569-F6B1-4B92-A6DE-6DD3BC736A5B}" Global="false">
+									<ObjectRef Name="WIND_Gusts_PE03_17_01" ID="{7EF102AC-DFD9-4BE4-A164-629D76B272ED}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

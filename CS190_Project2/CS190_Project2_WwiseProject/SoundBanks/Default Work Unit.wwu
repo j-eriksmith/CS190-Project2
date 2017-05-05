@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B1A00576-5058-43C9-8A27-86DB1748CC7E}" SchemaVersion="75">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{B1A00576-5058-43C9-8A27-86DB1748CC7E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="WindBlast" ID="{0574D2E1-3C1E-40AD-87E8-4F17FFFFC216}">
+					<ObjectInclusionList>
+						<ObjectRef Name="WindBlast" ID="{E46C95FD-5800-4F56-B5E5-95EEEB0FEC83}" WorkUnitID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
