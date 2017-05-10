@@ -464,7 +464,7 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Walking" ID="{1493D660-4C68-4BDD-B167-B327A2416BC0}" ShortID="653330260">
+				<RandomSequenceContainer Name="StaggeredWalk" ID="{1493D660-4C68-4BDD-B167-B327A2416BC0}" ShortID="653330260">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>

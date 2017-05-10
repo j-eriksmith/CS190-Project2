@@ -45,12 +45,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Walking" ID="{9A7CAB58-40F9-4F73-8665-1EE9E6C0CA3D}">
+				<Event Name="StaggeredWalk" ID="{9A7CAB58-40F9-4F73-8665-1EE9E6C0CA3D}">
 					<ChildrenList>
 						<Action Name="Play" ID="{B092D5CC-D49F-43D2-B86B-45C4E9268192}" ShortID="520802496" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{0C7FB663-356F-4569-9FC9-81FF444F5DB7}" Global="false">
-									<ObjectRef Name="Walking" ID="{1493D660-4C68-4BDD-B167-B327A2416BC0}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+									<ObjectRef Name="StaggeredWalk" ID="{1493D660-4C68-4BDD-B167-B327A2416BC0}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
 								</Element>
 							</ElementList>
 						</Action>

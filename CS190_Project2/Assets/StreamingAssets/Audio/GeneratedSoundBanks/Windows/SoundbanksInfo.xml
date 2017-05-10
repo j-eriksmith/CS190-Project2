@@ -25,6 +25,36 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="500663170" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\StaggeredWalk</ObjectPath>
+			<ShortName>StaggeredWalk</ShortName>
+			<Path>StaggeredWalk.bnk</Path>
+			<IncludedEvents>
+				<Event Id="500663170" Name="StaggeredWalk" ObjectPath="\Events\Default Work Unit\StaggeredWalk"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="223835182" Language="SFX">
+					<ShortName>Man_Walk_2_Staggered.wav</ShortName>
+					<Path>SFX\Man_Walk_2_Staggered_42F6142D.wem</Path>
+				</File>
+				<File Id="283822886" Language="SFX">
+					<ShortName>Man_Walk_2_Staggered.wav</ShortName>
+					<Path>SFX\Man_Walk_2_Staggered_FF69AE4D.wem</Path>
+				</File>
+				<File Id="514270829" Language="SFX">
+					<ShortName>Man_Walk_2_Staggered.wav</ShortName>
+					<Path>SFX\Man_Walk_2_Staggered_6264BAE3.wem</Path>
+				</File>
+				<File Id="586881856" Language="SFX">
+					<ShortName>Man_Walk_2_Staggered.wav</ShortName>
+					<Path>SFX\Man_Walk_2_Staggered_EC69B9F8.wem</Path>
+				</File>
+				<File Id="1003838634" Language="SFX">
+					<ShortName>Man_Walk_2_Staggered.wav</ShortName>
+					<Path>SFX\Man_Walk_2_Staggered_04E50A7A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>

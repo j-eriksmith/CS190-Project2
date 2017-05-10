@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	500663170	StaggeredWalk			\Default Work Unit\StaggeredWalk	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	223835182	Walk_5	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Man_Walk_2_Staggered_42F6142D.wem		\Actor-Mixer Hierarchy\Default Work Unit\StaggeredWalk\Walk_5		228444
+	283822886	Walk_2	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Man_Walk_2_Staggered_FF69AE4D.wem		\Actor-Mixer Hierarchy\Default Work Unit\StaggeredWalk\Walk_2		234832
+	514270829	Walk_4	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Man_Walk_2_Staggered_6264BAE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\StaggeredWalk\Walk_4		308296
+	586881856	Walk_6	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Man_Walk_2_Staggered_EC69B9F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\StaggeredWalk\Walk_6		116648
+	1003838634	Walk_3	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Man_Walk_2_Staggered_04E50A7A.wem		\Actor-Mixer Hierarchy\Default Work Unit\StaggeredWalk\Walk_3		123036
+

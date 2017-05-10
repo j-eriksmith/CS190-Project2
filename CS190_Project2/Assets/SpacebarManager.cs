@@ -31,6 +31,7 @@ public class SpacebarManager : MonoBehaviour {
     public GameObject revolver;
     private GameObject sanityText;
     private GameObject sanityBar;
+    private GameObject heavenBG;
     private SpriteRenderer mySpriteRenderer;
 
 
@@ -40,6 +41,7 @@ public class SpacebarManager : MonoBehaviour {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
         sanityText = GameObject.Find("SanityText");
         sanityBar = GameObject.Find("SanityBar");
+        heavenBG = GameObject.Find("heaven_bg");
 	}
 	
 	// Update is called once per frame
@@ -283,7 +285,14 @@ public class SpacebarManager : MonoBehaviour {
         mySpriteRenderer.enabled = false;
         ready = false;
         //play sound event
-        yield return new WaitForSeconds(/*however long the event takes)*/2f);
+        byte alpha = 0;
+        while (alpha < 195)
+        {
+            yield return new WaitForSeconds(.008f);
+            heavenBG.GetComponent<SpriteRenderer>().color = new Color32(255, 255, 255, alpha);
+            alpha++;
+        }
+        yield return new WaitForSeconds(/*however long the event takes)*/8f);
         ready = true;
         mySpriteRenderer.enabled = true;
     }

@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}'
-    m_lastTimePsrt1: 1913416626
-    m_lastTimePart2: -1999333529
+    m_lastTimePsrt1: 1997199490
+    m_lastTimePart2: -1999333511
     List:
     - Name: Door_Open
       Path: Default Work Unit\Door_Open
@@ -28,6 +28,16 @@ MonoBehaviour:
         ObjectType: 3
       ID: 535830432
       Guid: 8bb50f4303d25243b83d58a3b0ce39bf
+      maxAttenuation: 0
+    - Name: StaggeredWalk
+      Path: Default Work Unit\StaggeredWalk
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StaggeredWalk
+        ObjectType: 3
+      ID: 500663170
+      Guid: 58ab7c9af940734f86651ee9e6c0ca3d
       maxAttenuation: 0
     - Name: WindBlast
       Path: Default Work Unit\WindBlast
@@ -64,8 +74,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{B1A00576-5058-43C9-8A27-86DB1748CC7E}'
-    m_lastTimePsrt1: -846460167
-    m_lastTimePart2: -1999333523
+    m_lastTimePsrt1: 1997359646
+    m_lastTimePart2: -1999333511
     List:
     - Name: DoorOpen
       Path: Default Work Unit\DoorOpen
@@ -76,6 +86,15 @@ MonoBehaviour:
         ObjectType: 7
       ID: 1404805401
       Guid: df14cc2cc2f42749bb0db269bbcd1c69
+    - Name: StaggeredWalk
+      Path: Default Work Unit\StaggeredWalk
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StaggeredWalk
+        ObjectType: 7
+      ID: 500663170
+      Guid: e2588244894bd14994cf1632a630b9a7
     - Name: WindBlast
       Path: Default Work Unit\WindBlast
       PathAndIcons:
