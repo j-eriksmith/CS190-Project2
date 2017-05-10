@@ -16,9 +16,33 @@
 				</Event>
 				<Event Name="Door_Open" ID="{430FB58B-D203-4352-B83D-58A3B0CE39BF}">
 					<ChildrenList>
-						<Action Name="Play" ID="{2F49E182-C1CE-4249-9BD0-889B8FF9C98C}" ShortID="407725713" Type="Play" Scope="One" Global="false"/>
-						<Action Name="Play" ID="{F2653FC7-A5CE-40B4-B093-A420C3178CB0}" ShortID="883084370" Type="Play" Scope="One" Global="false"/>
-						<Action Name="Play" ID="{D0CA1463-E671-4725-B0FB-687317100804}" ShortID="839959906" Type="Play" Scope="One" Global="false"/>
+						<Action Name="Play" ID="{2EF024B3-3A54-4B03-9D9C-F35B2502BD2B}" ShortID="1055457993" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E4285F3E-35EA-42C7-A932-7F4D302484B8}" Global="false">
+									<ObjectRef Name="Door_Unlatch" ID="{96406ABF-4221-4EE0-9DEA-2938C9B39D25}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{8793D9CE-FC1B-4957-AADA-8B932B2B1D27}" ShortID="172256107" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2.2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{522E3BF7-D14F-42A6-BC56-0615963366D3}" Global="false">
+									<ObjectRef Name="Wind_Gust" ID="{6CEFEC05-8E65-467F-ACD2-96FEBC2C95EA}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{2259CA4F-98D2-4DC1-BFD2-3B3C944F2C99}" ShortID="694205222" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2.6"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{77B8F406-33F8-45ED-9280-E666DB6AC2FB}" Global="false">
+									<ObjectRef Name="Door_Open" ID="{E4A2B9C1-0DE3-4981-9139-638A07437CB3}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

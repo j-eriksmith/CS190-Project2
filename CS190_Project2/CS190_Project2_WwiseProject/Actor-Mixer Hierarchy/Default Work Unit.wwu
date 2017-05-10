@@ -60,44 +60,6 @@
 						<ActiveSource Name="Door_Chains_Rattle" ID="{C48D9F03-B391-4DA9-9574-1B8541A2BD73}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Door_Open" ID="{E4A2B9C1-0DE3-4981-9139-638A07437CB3}" ShortID="711917986" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Door_Open" ID="{D85B54B0-FD84-4E36-AF59-C16D693BA0AA}" ShortID="59503262">
-							<Language>SFX</Language>
-							<AudioFile>Door_Open.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Door_Open" ID="{D85B54B0-FD84-4E36-AF59-C16D693BA0AA}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Door_Unlatch" ID="{96406ABF-4221-4EE0-9DEA-2938C9B39D25}" ShortID="65212234" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Door_Unlatch" ID="{B7ADFDB1-42A2-4C20-A5F2-AD1E873BDFE7}" ShortID="42009483">
-							<Language>SFX</Language>
-							<AudioFile>Door_Unlatch.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Door_Unlatch" ID="{B7ADFDB1-42A2-4C20-A5F2-AD1E873BDFE7}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="Gun_Barrel_Open" ID="{5636AC75-773E-4F41-A2F7-866C7E7CAD1D}" ShortID="70787119" Type="SoundFX">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -421,7 +383,11 @@
 						<ActiveSource Name="Wind_Blustering" ID="{5F18F5DB-2264-43B0-9F37-9011DC6443FF}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Wind_Gust" ID="{6CEFEC05-8E65-467F-ACD2-96FEBC2C95EA}" ShortID="467708843" Type="SoundFX">
+				<RandomSequenceContainer Name="Door" ID="{F12DDEF9-899A-4002-9EED-3C4E18CE3B8D}" ShortID="1004842412">
+					<PropertyList>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
@@ -431,15 +397,92 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Wind_Gust" ID="{D235EE69-B468-469B-AC2F-08C89E19F331}" ShortID="532995531">
-							<Language>SFX</Language>
-							<AudioFile>Wind_Gust.wav</AudioFile>
-						</AudioFileSource>
+						<Sound Name="Door_Open" ID="{E4A2B9C1-0DE3-4981-9139-638A07437CB3}" ShortID="711917986" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door_Open" ID="{D85B54B0-FD84-4E36-AF59-C16D693BA0AA}" ShortID="59503262">
+									<Language>SFX</Language>
+									<AudioFile>Door_Open.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Door_Open" ID="{D85B54B0-FD84-4E36-AF59-C16D693BA0AA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wind_Gust" ID="{6CEFEC05-8E65-467F-ACD2-96FEBC2C95EA}" ShortID="467708843" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wind_Gust" ID="{D235EE69-B468-469B-AC2F-08C89E19F331}" ShortID="532995531">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="1.71058872410248"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Wind_Gust.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wind_Gust" ID="{D235EE69-B468-469B-AC2F-08C89E19F331}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Door_Unlatch" ID="{96406ABF-4221-4EE0-9DEA-2938C9B39D25}" ShortID="65212234" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door_Unlatch" ID="{B7ADFDB1-42A2-4C20-A5F2-AD1E873BDFE7}" ShortID="42009483">
+									<Language>SFX</Language>
+									<AudioFile>Door_Unlatch.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Door_Unlatch" ID="{B7ADFDB1-42A2-4C20-A5F2-AD1E873BDFE7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Wind_Gust" ID="{D235EE69-B468-469B-AC2F-08C89E19F331}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
