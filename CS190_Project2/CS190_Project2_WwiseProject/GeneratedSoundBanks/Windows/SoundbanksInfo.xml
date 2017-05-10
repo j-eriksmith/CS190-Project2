@@ -30,5 +30,27 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="1404805401" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\DoorOpen</ObjectPath>
+			<ShortName>DoorOpen</ShortName>
+			<Path>DoorOpen.bnk</Path>
+			<IncludedEvents>
+				<Event Id="535830432" Name="Door_Open" ObjectPath="\Events\Default Work Unit\Door_Open"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="42009483" Language="SFX">
+					<ShortName>Door_Unlatch.wav</ShortName>
+					<Path>SFX\Door_Unlatch_9E69E797.wem</Path>
+				</File>
+				<File Id="59503262" Language="SFX">
+					<ShortName>Door_Open.wav</ShortName>
+					<Path>SFX\Door_Open_9E69E797.wem</Path>
+				</File>
+				<File Id="532995531" Language="SFX">
+					<ShortName>Wind_Gust.wav</ShortName>
+					<Path>SFX\Wind_Gust_73EBA304.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

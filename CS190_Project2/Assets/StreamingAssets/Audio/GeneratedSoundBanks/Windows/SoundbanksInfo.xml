@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
 		<ProjectRoot>D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<SourceFilesRoot>D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Github\CS190-Project2\CS190_Project2\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>

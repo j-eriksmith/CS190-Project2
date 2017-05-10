@@ -10,6 +10,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="DoorOpen" ID="{2CCC14DF-F4C2-4927-BB0D-B269BBCD1C69}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Door_Open" ID="{430FB58B-D203-4352-B83D-58A3B0CE39BF}" WorkUnitID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

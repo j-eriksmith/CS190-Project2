@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SpeedBarrier : MonoBehaviour {
 
+    private GameObject player;
+
     public enum Speeds
     {
         SLOW1,
@@ -15,7 +17,7 @@ public class SpeedBarrier : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+        player = GameObject.Find("Player");
 	}
 	
 	// Update is called once per frame
@@ -54,11 +56,11 @@ public class SpeedBarrier : MonoBehaviour {
         byte color = 255;
         while (color > 95)
         {
-            yield return new WaitForSeconds(.002f);
+            yield return new WaitForSeconds(.01f);
             background.GetComponent<SpriteRenderer>().color = new Color32(color, color, color, 255);
             color--;
-            print(color);
         }
+        player.transform.GetChild(0).gameObject.SetActive(true);
         this.gameObject.SetActive(false);
     }
 }

@@ -16,9 +16,19 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}'
-    m_lastTimePsrt1: 1525721610
-    m_lastTimePart2: -1999334554
+    m_lastTimePsrt1: 1913416626
+    m_lastTimePart2: -1999333529
     List:
+    - Name: Door_Open
+      Path: Default Work Unit\Door_Open
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Door_Open
+        ObjectType: 3
+      ID: 535830432
+      Guid: 8bb50f4303d25243b83d58a3b0ce39bf
+      maxAttenuation: 0
     - Name: WindBlast
       Path: Default Work Unit\WindBlast
       PathAndIcons:
@@ -54,9 +64,18 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{B1A00576-5058-43C9-8A27-86DB1748CC7E}'
-    m_lastTimePsrt1: 1525776680
-    m_lastTimePart2: -1999334554
+    m_lastTimePsrt1: -846460167
+    m_lastTimePart2: -1999333523
     List:
+    - Name: DoorOpen
+      Path: Default Work Unit\DoorOpen
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DoorOpen
+        ObjectType: 7
+      ID: 1404805401
+      Guid: df14cc2cc2f42749bb0db269bbcd1c69
     - Name: WindBlast
       Path: Default Work Unit\WindBlast
       PathAndIcons:
@@ -68,6 +87,10 @@ MonoBehaviour:
       Guid: e1d274051e3cad4087e84f17ffffc216
   ExpandedItems:
   - /CS190_Project2_WwiseProject
+  - /CS190_Project2_WwiseProject/Events
+  - /CS190_Project2_WwiseProject/Events/Default Work Unit
+  - /CS190_Project2_WwiseProject/SoundBanks
+  - /CS190_Project2_WwiseProject/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

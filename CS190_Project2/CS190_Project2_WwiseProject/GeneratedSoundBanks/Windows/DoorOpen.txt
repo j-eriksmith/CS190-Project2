@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	535830432	Door_Open			\Default Work Unit\Door_Open	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	42009483	Door_Unlatch	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Door_Unlatch_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\Door_Unlatch		430508
+	59503262	Door_Open	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Door_Open_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\Door_Open		628192
+	532995531	Wind_Gust	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Wind_Gust_73EBA304.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\Wind_Gust		301812
+
