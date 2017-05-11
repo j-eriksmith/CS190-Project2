@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	473983015	WindBlast			\Default Work Unit\WindBlast	
+	2414345110	WindBG			\Default Work Unit\WindBG	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	496074570	Wind_Blustering	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Mac\SFX\Wind_Blustering_0689964D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind_Blustering		3672372
 	938243536	WIND_Gusts_PE03_17_01	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Mac\SFX\WIND_Gusts_PE03_17_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WIND_Gusts_PE03_17_01		6428736
 

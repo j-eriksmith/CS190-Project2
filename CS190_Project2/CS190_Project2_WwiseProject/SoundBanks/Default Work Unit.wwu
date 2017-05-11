@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="WindBlast" ID="{0574D2E1-3C1E-40AD-87E8-4F17FFFFC216}">
 					<ObjectInclusionList>
+						<ObjectRef Name="WindBG" ID="{EBC2C1D1-51F3-414C-B21E-1365E5365E74}" WorkUnitID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="WindBlast" ID="{E46C95FD-5800-4F56-B5E5-95EEEB0FEC83}" WorkUnitID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -18,7 +19,18 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="StaggeredWalk" ID="{448258E2-4B89-49D1-94CF-1632A630B9A7}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="StaggeredWalk" ID="{9A7CAB58-40F9-4F73-8665-1EE9E6C0CA3D}" WorkUnitID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Viola" ID="{C55FC0E0-FCC9-46CE-AFAA-14A14DF8E4F0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="StopViola" ID="{6F0D3071-6318-448A-A17D-964B89881BCE}" WorkUnitID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StaggeredBreathing" ID="{4485C49F-DE7D-48AA-9A3C-CDA241F333A6}" WorkUnitID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Viola" ID="{46EEDF3C-36D7-4B71-A39C-0FDCF661E9F3}" WorkUnitID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

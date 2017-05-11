@@ -449,8 +449,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1046620395}
   - {fileID: 1533870781}
+  - {fileID: 1046620395}
   - {fileID: 772119194}
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -791,7 +791,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 930524404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -978,11 +978,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1046620394}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33, y: -4.08, z: 0}
+  m_LocalPosition: {x: 28.17, y: -4.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 228906254}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1046620396
 MonoBehaviour:
@@ -1116,7 +1116,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1089519428}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.03, y: -8.22, z: -0.04}
+  m_LocalPosition: {x: -15.8, y: -8.22, z: -0.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 47690628}
@@ -1240,6 +1240,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1101983616}
   - component: {fileID: 1101983615}
+  - component: {fileID: 1101983620}
+  - component: {fileID: 1101983617}
   m_Layer: 0
   m_Name: outdoor_bg
   m_TagString: Untagged
@@ -1300,6 +1302,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1101983617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1101983614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac01d7ae962a35645ae0602cabb5d39e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1101983620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1101983614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42db8858a468bd440aa9a75197cb3749, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: e1d274051e3cad4087e84f17ffffc216
+  bankName: WindBlast
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
 --- !u!1 &1241446806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1309,6 +1341,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1241446808}
   - component: {fileID: 1241446807}
+  - component: {fileID: 1241446809}
   m_Layer: 0
   m_Name: indoor_bg
   m_TagString: Untagged
@@ -1369,6 +1402,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1241446809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1241446806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42db8858a468bd440aa9a75197cb3749, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: e0c05fc5c9fcce46afaa14a14df8e4f0
+  bankName: Viola
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
 --- !u!1 &1415710682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,7 +1484,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1415710682}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.76, y: 0.63, z: 0}
+  m_LocalPosition: {x: 36.76, y: 0.63, z: -8}
   m_LocalScale: {x: 3.0751014, y: 3.06655, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1585,7 +1637,7 @@ Transform:
   m_LocalScale: {x: 1.0000005, y: 1.0056417, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 228906254}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1533870782
 MonoBehaviour:

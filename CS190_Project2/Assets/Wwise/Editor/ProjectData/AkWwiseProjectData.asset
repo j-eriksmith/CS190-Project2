@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}'
-    m_lastTimePsrt1: 1997199490
-    m_lastTimePart2: -1999333511
+    m_lastTimePsrt1: -1420303149
+    m_lastTimePart2: -1999333305
     List:
     - Name: Door_Open
       Path: Default Work Unit\Door_Open
@@ -29,6 +29,16 @@ MonoBehaviour:
       ID: 535830432
       Guid: 8bb50f4303d25243b83d58a3b0ce39bf
       maxAttenuation: 0
+    - Name: StaggeredBreathing
+      Path: Default Work Unit\StaggeredBreathing
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StaggeredBreathing
+        ObjectType: 3
+      ID: 396110729
+      Guid: 9fc485447ddeaa489a3ccda241f333a6
+      maxAttenuation: 0
     - Name: StaggeredWalk
       Path: Default Work Unit\StaggeredWalk
       PathAndIcons:
@@ -38,6 +48,36 @@ MonoBehaviour:
         ObjectType: 3
       ID: 500663170
       Guid: 58ab7c9af940734f86651ee9e6c0ca3d
+      maxAttenuation: 0
+    - Name: StopViola
+      Path: Default Work Unit\StopViola
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StopViola
+        ObjectType: 3
+      ID: 1547882492
+      Guid: 71300d6f18638a44a17d964b89881bce
+      maxAttenuation: 0
+    - Name: Viola
+      Path: Default Work Unit\Viola
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Viola
+        ObjectType: 3
+      ID: -1159892604
+      Guid: 3cdfee46d736714ba39c0fdcf661e9f3
+      maxAttenuation: 0
+    - Name: WindBG
+      Path: Default Work Unit\WindBG
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WindBG
+        ObjectType: 3
+      ID: -1880622186
+      Guid: d1c1c2ebf3514c41b21e1365e5365e74
       maxAttenuation: 0
     - Name: WindBlast
       Path: Default Work Unit\WindBlast
@@ -74,8 +114,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{B1A00576-5058-43C9-8A27-86DB1748CC7E}'
-    m_lastTimePsrt1: 1997359646
-    m_lastTimePart2: -1999333511
+    m_lastTimePsrt1: 343700360
+    m_lastTimePart2: -1999333305
     List:
     - Name: DoorOpen
       Path: Default Work Unit\DoorOpen
@@ -95,6 +135,15 @@ MonoBehaviour:
         ObjectType: 7
       ID: 500663170
       Guid: e2588244894bd14994cf1632a630b9a7
+    - Name: Viola
+      Path: Default Work Unit\Viola
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Viola
+        ObjectType: 7
+      ID: -1159892604
+      Guid: e0c05fc5c9fcce46afaa14a14df8e4f0
     - Name: WindBlast
       Path: Default Work Unit\WindBlast
       PathAndIcons:

@@ -56,6 +56,65 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="WindBG" ID="{EBC2C1D1-51F3-414C-B21E-1365E5365E74}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B862B5BF-98AE-492A-955B-901C97BC49F4}" ShortID="299859054" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F6350070-FCEC-40EA-82B2-E6A377A58DCD}" Global="false">
+									<ObjectRef Name="Wind_Blustering" ID="{26F845D6-9AB6-44C3-ABFA-2B36826B571E}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Viola" ID="{46EEDF3C-36D7-4B71-A39C-0FDCF661E9F3}">
+					<ChildrenList>
+						<Action Name="Play" ID="{00B58B19-28D9-4188-B344-BBC3BD879DB5}" ShortID="548455674" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B5ADDA04-7005-441C-A360-381C6C0DCCB3}" Global="false">
+									<ObjectRef Name="Viola" ID="{5BC0F270-B416-4C5D-BA85-E47C1A325204}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopViola" ID="{6F0D3071-6318-448A-A17D-964B89881BCE}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{C456867F-18C9-445F-804E-0BD3D37584FA}" ShortID="867461766" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{7192D2D0-ABCA-4CA7-8904-21507A91404A}" Global="false">
+									<ObjectRef Name="Viola" ID="{5BC0F270-B416-4C5D-BA85-E47C1A325204}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{DC2EA09D-6151-4670-9BFB-2D545286CBD1}" ShortID="608941687" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{7191B86E-0E97-4CD2-AFAF-EADB5D5A4309}" Global="false">
+									<ObjectRef Name="Man_Breathing_1_Staggered" ID="{72501FE6-EEF3-4AA2-BF10-94F040F357A8}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StaggeredBreathing" ID="{4485C49F-DE7D-48AA-9A3C-CDA241F333A6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E3F69280-9A79-48DA-AE90-25055250D75F}" ShortID="556091652" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CAFC2E57-2210-43DA-845B-9423F6F4E0C7}" Global="false">
+									<ObjectRef Name="Man_Breathing_1_Staggered" ID="{72501FE6-EEF3-4AA2-BF10-94F040F357A8}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

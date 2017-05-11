@@ -6,15 +6,15 @@ public class PlayerMovement : MonoBehaviour
 {
 
     private bool canMove = true;
-    private int walkSoundReset = 40;
-    private int walkSoundCD = 40;
+    private int walkSoundReset = 35;
+    private int walkSoundCD = 35;
 
     public float moveSpeed = 5f;
 
     // Use this for initialization
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -59,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
     public void restartPlayer()
     {
         canMove = true;
+        moveSpeed = 2.5f;
     }
 }
 

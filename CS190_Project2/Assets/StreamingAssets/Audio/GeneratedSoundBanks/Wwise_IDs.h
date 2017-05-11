@@ -14,7 +14,11 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID DOOR_OPEN = 535830432U;
+        static const AkUniqueID STAGGEREDBREATHING = 396110729U;
         static const AkUniqueID STAGGEREDWALK = 500663170U;
+        static const AkUniqueID STOPVIOLA = 1547882492U;
+        static const AkUniqueID VIOLA = 3135074692U;
+        static const AkUniqueID WINDBG = 2414345110U;
         static const AkUniqueID WINDBLAST = 473983015U;
     } // namespace EVENTS
 
@@ -23,6 +27,7 @@ namespace AK
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID DOOROPEN = 1404805401U;
         static const AkUniqueID STAGGEREDWALK = 500663170U;
+        static const AkUniqueID VIOLA = 3135074692U;
         static const AkUniqueID WINDBLAST = 473983015U;
     } // namespace BANKS
 

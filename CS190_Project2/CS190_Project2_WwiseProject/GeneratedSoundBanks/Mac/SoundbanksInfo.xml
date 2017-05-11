@@ -16,9 +16,14 @@
 			<ShortName>WindBlast</ShortName>
 			<Path>WindBlast.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2414345110" Name="WindBG" ObjectPath="\Events\Default Work Unit\WindBG" MaxAttenuation="40.000000"/>
 				<Event Id="473983015" Name="WindBlast" ObjectPath="\Events\Default Work Unit\WindBlast"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="496074570" Language="SFX">
+					<ShortName>Wind_Blustering.wav</ShortName>
+					<Path>SFX\Wind_Blustering_1E7E2AFB.wem</Path>
+				</File>
 				<File Id="938243536" Language="SFX">
 					<ShortName>WIND_Gusts_PE03_17_01.wav</ShortName>
 					<Path>SFX\WIND_Gusts_PE03_17_01_9E69E797.wem</Path>
@@ -79,6 +84,26 @@
 				<File Id="532995531" Language="SFX">
 					<ShortName>Wind_Gust.wav</ShortName>
 					<Path>SFX\Wind_Gust_73EBA304.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3135074692" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Viola</ObjectPath>
+			<ShortName>Viola</ShortName>
+			<Path>Viola.bnk</Path>
+			<IncludedEvents>
+				<Event Id="396110729" Name="StaggeredBreathing" ObjectPath="\Events\Default Work Unit\StaggeredBreathing"/>
+				<Event Id="1547882492" Name="StopViola" ObjectPath="\Events\Default Work Unit\StopViola" MaxAttenuation="0.000000"/>
+				<Event Id="3135074692" Name="Viola" ObjectPath="\Events\Default Work Unit\Viola"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="422796291" Language="SFX">
+					<ShortName>Viola.wav</ShortName>
+					<Path>SFX\Viola_0EA37F98.wem</Path>
+				</File>
+				<File Id="1072840709" Language="SFX">
+					<ShortName>Man_Breathing_1_Staggered.wav</ShortName>
+					<Path>SFX\Man_Breathing_1_Staggered_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

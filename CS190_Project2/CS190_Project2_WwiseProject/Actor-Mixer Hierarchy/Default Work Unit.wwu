@@ -232,6 +232,9 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Man_Breathing_1_Staggered" ID="{72501FE6-EEF3-4AA2-BF10-94F040F357A8}" ShortID="762700839" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
@@ -327,6 +330,9 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Viola" ID="{5BC0F270-B416-4C5D-BA85-E47C1A325204}" ShortID="214024111" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
@@ -337,6 +343,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Viola" ID="{C853C667-5358-4DF0-8D1B-38C4895C1B24}" ShortID="422796291">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="5.61622529964367"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.5563508260447"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Viola.wav</AudioFile>
 						</AudioFileSource>
@@ -346,7 +356,98 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Wind_Blustering" ID="{26F845D6-9AB6-44C3-ABFA-2B36826B571E}" ShortID="111144415" Type="SoundFX">
+					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{EF1FBA5E-9273-411B-BC3D-39C7CCE6DA6D}" ShortID="231600760">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="40"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{19266A59-6153-4DFE-812B-74C1738C5915}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>40</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="VolumeWetUser" ID="{596CF207-F424-4AC8-A932-844DB70C0351}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>40</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="LowPassFilter" ID="{37836A8B-23FC-4C4D-BEE2-A3C6C3B96C6F}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>40</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
 						</Reference>
@@ -356,10 +457,22 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Wind_Blustering" ID="{5F18F5DB-2264-43B0-9F37-9011DC6443FF}" ShortID="496074570">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="2.18191964285714"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Wind_Blustering.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{DFC35DEA-10B6-4A21-BB8B-3D960FED8112}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-0.407331975560082"/>
+								<Property Name="PanY" Type="Real64" Value="-3.33066907387547E-16"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Wind_Blustering" ID="{5F18F5DB-2264-43B0-9F37-9011DC6443FF}" Platform="Linked"/>
 					</ActiveSourceList>
