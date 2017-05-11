@@ -115,6 +115,59 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="GunLoad" ID="{C4250543-BBE0-485D-B3AA-1C71FEB3479A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{BAFBDAA9-46F6-4637-A49A-2F626F48409C}" ShortID="677016906" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F335086C-DC33-4233-A585-636812EF6AAE}" Global="false">
+									<ObjectRef Name="GunLoad" ID="{5BB34878-A1C9-4F0F-86EB-EAA1037BD774}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Angel" ID="{F7E5F2D7-A937-46CA-A5CB-2E9FF8AA05F0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{953410A4-3A0B-4975-B90D-DE8D88346E91}" ShortID="414685346" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="0"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{658FF55C-F9ED-4BD0-895E-6552806EB3A4}" Global="false">
+									<ObjectRef Name="Angel_Gregorian_Chant" ID="{D25DE2B0-7D8A-46DE-B362-F19D4E4C3E1A}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{56C8A7BF-E87A-4972-B109-B031AB9B3BD6}" ShortID="670332976" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.9"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{2D2D731D-6C63-4A9E-B31C-C7D8F6BA5D52}" Global="false">
+									<ObjectRef Name="Angel_Holy_Sound" ID="{BCB58836-5E94-4D91-9DFF-CF64DD7FA30B}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{EB6B72C0-FBB5-4181-B93F-A60BF9A9601B}" ShortID="234503433" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="5.4"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{E53D65A5-991D-4D10-8272-D9D17451D0C4}" Global="false">
+									<ObjectRef Name="Angel_Wings_Flapping" ID="{4775B24D-F4EE-4B08-80AC-2686B29C5DE7}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop All" ID="{E46D4707-6FD1-45C0-9DDD-C1F54B897D85}" ShortID="329556488" Type="Stop" Scope="All" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="25"/>
+								<Property Name="FadeCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

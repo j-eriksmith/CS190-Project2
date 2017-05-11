@@ -22,25 +22,6 @@
 						<ActiveSource Name="WIND_Gusts_PE03_17_01" ID="{415323AA-91D7-4310-8766-8FC7D04020F5}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Angel_Holy_Sound" ID="{3255676E-5BDE-4A86-8DC5-86EB70F82A21}" ShortID="600803438" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Angel_Holy_Sound" ID="{C7020183-ECC2-4D52-A236-F05E8FD220DF}" ShortID="40269991">
-							<Language>SFX</Language>
-							<AudioFile>Angel_Holy_Sound.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Angel_Holy_Sound" ID="{C7020183-ECC2-4D52-A236-F05E8FD220DF}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="Door_Chains_Rattle" ID="{E7767106-0AA9-47F5-9CDD-B8CE1B8897F2}" ShortID="111740250" Type="SoundFX">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -58,44 +39,6 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Door_Chains_Rattle" ID="{C48D9F03-B391-4DA9-9574-1B8541A2BD73}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Gun_Barrel_Open" ID="{5636AC75-773E-4F41-A2F7-866C7E7CAD1D}" ShortID="70787119" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Gun_Barrel_Open" ID="{92FA5511-D7AB-4423-9BDA-F83299CEB197}" ShortID="485314245">
-							<Language>SFX</Language>
-							<AudioFile>Gun_Barrel_Open.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Gun_Barrel_Open" ID="{92FA5511-D7AB-4423-9BDA-F83299CEB197}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Gun_Barrel_Spin" ID="{50F10B95-3E7C-4BCE-A77B-DB5BCB588C7F}" ShortID="572366001" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Gun_Barrel_Spin" ID="{11565CFD-CEB6-4F78-8CAB-86A7301DAB71}" ShortID="662308300">
-							<Language>SFX</Language>
-							<AudioFile>Gun_Barrel_Spin.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Gun_Barrel_Spin" ID="{11565CFD-CEB6-4F78-8CAB-86A7301DAB71}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Gun_Cock" ID="{A1FA5C88-C3A3-45AB-B68A-B1490A8AE6D4}" ShortID="67204539" Type="SoundFX">
@@ -153,25 +96,6 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Gun_Fire_Blank" ID="{FCF5E77E-71A4-45F9-9D7E-702DABDE37C9}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Gun_Load" ID="{2079764E-DF8D-485B-9AA1-768A348C5C29}" ShortID="696347159" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Gun_Load" ID="{5454EFF7-230A-427F-9321-94F7C5830200}" ShortID="181067643">
-							<Language>SFX</Language>
-							<AudioFile>Gun_Load.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Gun_Load" ID="{5454EFF7-230A-427F-9321-94F7C5830200}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Man_Breathing_1_After_Shot_1" ID="{58A9BBFE-2B9B-4A5F-9E46-96AFE40DBC90}" ShortID="454700756" Type="SoundFX">
@@ -578,6 +502,9 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="StaggeredWalk" ID="{1493D660-4C68-4BDD-B167-B327A2416BC0}" ShortID="653330260">
+					<PropertyList>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
@@ -623,7 +550,7 @@
 								<AudioFileSource Name="Man_Walk_2_Staggered" ID="{14C19A2B-6A46-4A6F-883F-8E5A3171A50D}" ShortID="1003838634">
 									<PropertyList>
 										<Property Name="TrimBegin" Type="Real64" Value="4.07414483095812"/>
-										<Property Name="TrimEnd" Type="Real64" Value="4.77127627981095"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.30544193542546"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Man_Walk_2_Staggered.wav</AudioFile>
@@ -646,7 +573,7 @@
 								<AudioFileSource Name="Man_Walk_2_Staggered" ID="{7448C5EB-3EB8-4D93-BE7A-3EDC67C70B7D}" ShortID="514270829">
 									<PropertyList>
 										<Property Name="TrimBegin" Type="Real64" Value="5.45935407348387"/>
-										<Property Name="TrimEnd" Type="Real64" Value="7.20670952320591"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.66844593738116"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Man_Walk_2_Staggered.wav</AudioFile>
@@ -723,7 +650,7 @@
 								<AudioFileSource Name="Man_Walk_2_Staggered" ID="{DDCD490D-78E9-4674-A3F5-83BBAB82F7E2}" ShortID="95871630">
 									<PropertyList>
 										<Property Name="TrimBegin" Type="Real64" Value="7.81330442025968"/>
-										<Property Name="TrimEnd" Type="Real64" Value="9.10797711098636"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.60592814588124"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Man_Walk_2_Staggered.wav</AudioFile>
@@ -738,6 +665,195 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="GunLoad" ID="{5BB34878-A1C9-4F0F-86EB-EAA1037BD774}" ShortID="272562931">
+					<PropertyList>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Gun_Barrel_Open" ID="{5636AC75-773E-4F41-A2F7-866C7E7CAD1D}" ShortID="70787119" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gun_Barrel_Open" ID="{92FA5511-D7AB-4423-9BDA-F83299CEB197}" ShortID="485314245">
+									<Language>SFX</Language>
+									<AudioFile>Gun_Barrel_Open.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Gun_Barrel_Open" ID="{92FA5511-D7AB-4423-9BDA-F83299CEB197}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gun_Barrel_Spin" ID="{50F10B95-3E7C-4BCE-A77B-DB5BCB588C7F}" ShortID="572366001" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gun_Barrel_Spin" ID="{11565CFD-CEB6-4F78-8CAB-86A7301DAB71}" ShortID="662308300">
+									<Language>SFX</Language>
+									<AudioFile>Gun_Barrel_Spin.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Gun_Barrel_Spin" ID="{11565CFD-CEB6-4F78-8CAB-86A7301DAB71}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gun_Load" ID="{2079764E-DF8D-485B-9AA1-768A348C5C29}" ShortID="696347159" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gun_Load" ID="{5454EFF7-230A-427F-9321-94F7C5830200}" ShortID="181067643">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Gun_Load.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Gun_Load" ID="{5454EFF7-230A-427F-9321-94F7C5830200}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gun_Cock" ID="{430CE5E2-A209-4278-8743-9824A943DE49}" ShortID="189108540" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gun_Cock" ID="{B4703AE6-B764-42FB-95B8-F4644FA433E4}" ShortID="85961477">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="0.520616409829238"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Gun_Cock.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Gun_Cock" ID="{B4703AE6-B764-42FB-95B8-F4644FA433E4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Gun_Cock" ID="{430CE5E2-A209-4278-8743-9824A943DE49}"/>
+						<ItemRef Name="Gun_Barrel_Open" ID="{5636AC75-773E-4F41-A2F7-866C7E7CAD1D}"/>
+						<ItemRef Name="Gun_Load" ID="{2079764E-DF8D-485B-9AA1-768A348C5C29}"/>
+						<ItemRef Name="Gun_Barrel_Spin" ID="{50F10B95-3E7C-4BCE-A77B-DB5BCB588C7F}"/>
+						<ItemRef Name="Gun_Barrel_Spin" ID="{50F10B95-3E7C-4BCE-A77B-DB5BCB588C7F}"/>
+						<ItemRef Name="Gun_Barrel_Spin" ID="{50F10B95-3E7C-4BCE-A77B-DB5BCB588C7F}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<Sound Name="Angel_Gregorian_Chant" ID="{D25DE2B0-7D8A-46DE-B362-F19D4E4C3E1A}" ShortID="847626574" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2.5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Angel_Gregorian_Chant" ID="{7B3266D2-4CCF-4E14-A6C0-165F177A8CC1}" ShortID="233630236">
+							<Language>SFX</Language>
+							<AudioFile>Angel_Gregorian_Chant.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Angel_Gregorian_Chant" ID="{7B3266D2-4CCF-4E14-A6C0-165F177A8CC1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Angel_Wings_Flapping" ID="{4775B24D-F4EE-4B08-80AC-2686B29C5DE7}" ShortID="1047963136" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2.2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Angel_Wings_Flapping" ID="{A676B7C9-57D2-4623-B4F4-9BA9F0B937F5}" ShortID="88141684">
+							<Language>SFX</Language>
+							<AudioFile>Angel_Wings_Flapping.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Angel_Wings_Flapping" ID="{A676B7C9-57D2-4623-B4F4-9BA9F0B937F5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Angel_Holy_Sound" ID="{BCB58836-5E94-4D91-9DFF-CF64DD7FA30B}" ShortID="598244668" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2.5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{00B322CE-643E-4830-8871-C94D94663382}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09587C57-F196-430F-B5AB-00FE1FF70495}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Holy Sound" ID="{03E1E752-EC13-43CB-9A74-23FC3394BDA8}" ShortID="385712162">
+							<Language>SFX</Language>
+							<AudioFile>Holy Sound.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Holy Sound" ID="{03E1E752-EC13-43CB-9A74-23FC3394BDA8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
