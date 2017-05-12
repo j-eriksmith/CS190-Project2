@@ -10,7 +10,7 @@ public class OutdoorMusic : MonoBehaviour {
         player = GameObject.Find("Player");
         GameObject speaker1 = new GameObject();
         AkSoundEngine.RegisterGameObj(speaker1);
-        AkSoundEngine.SetObjectPosition(speaker1, transform.position.x - 4f, transform.position.y, 10f, 1f, 1f, 1f,1f,1f,1f);
+        AkSoundEngine.SetObjectPosition(speaker1, transform.position.x - 6f, transform.position.y, 10f, 1f, 1f, 1f,1f,1f,1f);
         AkSoundEngine.SetActiveListeners(player, 1);
         AkSoundEngine.PostEvent("WindBG", speaker1);
     }

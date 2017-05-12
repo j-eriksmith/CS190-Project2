@@ -4,17 +4,25 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public enum WALKMODES
+    {
+        OUTSIDE,
+        INSIDE
+    }
+    public PlayerMovement.WALKMODES walkMode;
 
     private bool canMove = true;
-    private int walkSoundReset = 35;
-    private int walkSoundCD = 35;
+    private int walkSoundResetInside = 35;
+    private int walkSoundCDInside = 35;
+    private int walkSoundResetOutside = 10;
+    private int walkSoundCDOutside = 10;
 
     public float moveSpeed = 5f;
 
     // Use this for initialization
     void Start()
     {
-        
+        walkMode = WALKMODES.OUTSIDE;
     }
 
     // Update is called once per frame
@@ -30,13 +38,28 @@ public class PlayerMovement : MonoBehaviour
     {
         if (canMove)
         {
-            walkSoundCD--;
-            if (Mathf.Abs(Input.GetAxis("Horizontal")) > .8f)
+            if (walkMode == WALKMODES.OUTSIDE)
             {
-                if (walkSoundCD <= 0)
+                walkSoundCDOutside--;
+                if (Mathf.Abs(Input.GetAxis("Horizontal")) > .8f)
                 {
-                    AkSoundEngine.PostEvent("StaggeredWalk", gameObject);
-                    walkSoundCD = walkSoundReset;
+                    if (walkSoundCDOutside <= 0)
+                    {
+                        AkSoundEngine.PostEvent("StaggeredWalk", gameObject); // replace with actual walk
+                        walkSoundCDOutside = walkSoundResetOutside;
+                    }
+                }
+            }
+            if (walkMode == WALKMODES.INSIDE)
+            {
+                walkSoundCDInside--;
+                if (Mathf.Abs(Input.GetAxis("Horizontal")) > .8f)
+                {
+                    if (walkSoundCDInside <= 0)
+                    {
+                        AkSoundEngine.PostEvent("StaggeredWalk", gameObject);
+                        walkSoundCDInside = walkSoundResetInside;
+                    }
                 }
             }
         }
@@ -51,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(disableTime);
         canMove = true;
+        walkMode = WALKMODES.INSIDE;
     }
     public void stopPlayer()
     {

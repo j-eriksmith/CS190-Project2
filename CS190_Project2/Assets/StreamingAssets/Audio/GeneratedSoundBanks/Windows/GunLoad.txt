@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1086856521	GunLoad			\Default Work Unit\GunLoad	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	85961477	Gun_Cock	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Gun_Cock_E23C6C5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\GunLoad\Gun_Cock		91900
+	181067643	Gun_Load	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Gun_Load_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GunLoad\Gun_Load		740944
+	485314245	Gun_Barrel_Open	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Gun_Barrel_Open_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GunLoad\Gun_Barrel_Open		34880
+	662308300	Gun_Barrel_Spin	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Gun_Barrel_Spin_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GunLoad\Gun_Barrel_Spin		120036
+

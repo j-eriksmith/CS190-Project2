@@ -34,6 +34,21 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="GunLoad" ID="{676818AB-6533-4CAB-9EF4-281C79C4D337}">
+					<ObjectInclusionList>
+						<ObjectRef Name="GunLoad" ID="{C4250543-BBE0-485D-B3AA-1C71FEB3479A}" WorkUnitID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Angel" ID="{2D3268F0-E012-4BE0-806D-6509D1AC543B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Angel" ID="{F7E5F2D7-A937-46CA-A5CB-2E9FF8AA05F0}" WorkUnitID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GunDrop" ID="{C15A196E-5ACB-4A3C-9446-9973057960DA}" WorkUnitID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

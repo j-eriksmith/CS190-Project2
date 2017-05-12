@@ -71,6 +71,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Gun_Drop" ID="{717EA5C1-43C7-4978-9248-591777769868}" ShortID="377905743">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.636895043731779"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.55685455134435"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Gun_Drop.wav</AudioFile>
 						</AudioFileSource>

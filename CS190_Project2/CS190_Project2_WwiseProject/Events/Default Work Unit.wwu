@@ -131,6 +131,7 @@
 						<Action Name="Play" ID="{953410A4-3A0B-4975-B90D-DE8D88346E91}" ShortID="414685346" Type="Play" Scope="One" Global="false">
 							<PropertyList>
 								<Property Name="FadeCurve" Type="int16" Value="0"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ElementList>
 								<Element ID="{658FF55C-F9ED-4BD0-895E-6552806EB3A4}" Global="false">
@@ -196,6 +197,17 @@
 							<ElementList>
 								<Element ID="{F27F2E48-9937-4D4D-BFCD-919FB60D3520}" Global="false">
 									<ObjectRef Name="Normal Walk" ID="{0635CB01-2101-4963-A855-BB037BD71666}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GunDrop" ID="{C15A196E-5ACB-4A3C-9446-9973057960DA}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C75C93A3-5D0A-4984-BE5F-5DD6F93A8236}" ShortID="230303692" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B4F2DD44-CD26-4D93-8321-ED6EC31AD2AF}" Global="false">
+									<ObjectRef Name="Gun_Drop" ID="{3304FF4E-CA33-4AA1-A9D6-20EC7598F364}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
 								</Element>
 							</ElementList>
 						</Action>

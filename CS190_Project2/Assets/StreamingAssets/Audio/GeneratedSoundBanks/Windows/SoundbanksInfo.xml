@@ -22,7 +22,7 @@
 			<IncludedMemoryFiles>
 				<File Id="496074570" Language="SFX">
 					<ShortName>Wind_Blustering.wav</ShortName>
-					<Path>SFX\Wind_Blustering_1E7E2AFB.wem</Path>
+					<Path>SFX\Wind_Blustering_0689964D.wem</Path>
 				</File>
 				<File Id="938243536" Language="SFX">
 					<ShortName>WIND_Gusts_PE03_17_01.wav</ShortName>
@@ -40,7 +40,7 @@
 			<IncludedMemoryFiles>
 				<File Id="223835182" Language="SFX">
 					<ShortName>Man_Walk_2_Staggered.wav</ShortName>
-					<Path>SFX\Man_Walk_2_Staggered_42F6142D.wem</Path>
+					<Path>SFX\Man_Walk_2_Staggered_1D1074B8.wem</Path>
 				</File>
 				<File Id="283822886" Language="SFX">
 					<ShortName>Man_Walk_2_Staggered.wav</ShortName>
@@ -48,7 +48,7 @@
 				</File>
 				<File Id="514270829" Language="SFX">
 					<ShortName>Man_Walk_2_Staggered.wav</ShortName>
-					<Path>SFX\Man_Walk_2_Staggered_6264BAE3.wem</Path>
+					<Path>SFX\Man_Walk_2_Staggered_0DBF389A.wem</Path>
 				</File>
 				<File Id="586881856" Language="SFX">
 					<ShortName>Man_Walk_2_Staggered.wav</ShortName>
@@ -56,7 +56,60 @@
 				</File>
 				<File Id="1003838634" Language="SFX">
 					<ShortName>Man_Walk_2_Staggered.wav</ShortName>
-					<Path>SFX\Man_Walk_2_Staggered_04E50A7A.wem</Path>
+					<Path>SFX\Man_Walk_2_Staggered_D35E9F8B.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="954941472" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Angel</ObjectPath>
+			<ShortName>Angel</ShortName>
+			<Path>Angel.bnk</Path>
+			<IncludedEvents>
+				<Event Id="954941472" Name="Angel" ObjectPath="\Events\Default Work Unit\Angel"/>
+				<Event Id="2580476902" Name="GunDrop" ObjectPath="\Events\Default Work Unit\GunDrop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="88141684" Language="SFX">
+					<ShortName>Angel_Wings_Flapping.wav</ShortName>
+					<Path>SFX\Angel_Wings_Flapping_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="233630236" Language="SFX">
+					<ShortName>Angel_Gregorian_Chant.wav</ShortName>
+					<Path>SFX\Angel_Gregorian_Chant_9E69E797.wem</Path>
+				</File>
+				<File Id="377905743" Language="SFX">
+					<ShortName>Gun_Drop.wav</ShortName>
+					<Path>SFX\Gun_Drop_B4B89FBA.wem</Path>
+				</File>
+				<File Id="385712162" Language="SFX">
+					<ShortName>Holy Sound.wav</ShortName>
+					<Path>SFX\Holy Sound_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1086856521" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\GunLoad</ObjectPath>
+			<ShortName>GunLoad</ShortName>
+			<Path>GunLoad.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1086856521" Name="GunLoad" ObjectPath="\Events\Default Work Unit\GunLoad"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="85961477" Language="SFX">
+					<ShortName>Gun_Cock.wav</ShortName>
+					<Path>SFX\Gun_Cock_E23C6C5F.wem</Path>
+				</File>
+				<File Id="181067643" Language="SFX">
+					<ShortName>Gun_Load.wav</ShortName>
+					<Path>SFX\Gun_Load_9E69E797.wem</Path>
+				</File>
+				<File Id="485314245" Language="SFX">
+					<ShortName>Gun_Barrel_Open.wav</ShortName>
+					<Path>SFX\Gun_Barrel_Open_9E69E797.wem</Path>
+				</File>
+				<File Id="662308300" Language="SFX">
+					<ShortName>Gun_Barrel_Spin.wav</ShortName>
+					<Path>SFX\Gun_Barrel_Spin_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -99,7 +152,7 @@
 			<IncludedMemoryFiles>
 				<File Id="422796291" Language="SFX">
 					<ShortName>Viola.wav</ShortName>
-					<Path>SFX\Viola_0EA37F98.wem</Path>
+					<Path>SFX\Viola_DA3FA7E5.wem</Path>
 				</File>
 				<File Id="1072840709" Language="SFX">
 					<ShortName>Man_Breathing_1_Staggered.wav</ShortName>

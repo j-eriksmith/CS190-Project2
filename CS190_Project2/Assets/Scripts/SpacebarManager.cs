@@ -31,6 +31,9 @@ public class SpacebarManager : MonoBehaviour {
     private float sanity = 100f;
 
     public GameObject revolver;
+    public GameObject exit1;
+    public GameObject exit2;
+
     private GameObject sanityText;
     private GameObject sanityBar;
     private GameObject heavenBG;
@@ -57,12 +60,6 @@ public class SpacebarManager : MonoBehaviour {
                 case PHASES.FIRSTCOCK:
                     {
                         StartCoroutine(FirstCock());
-                        currentPhase = PHASES.LOADANDROLL;
-                        break;
-                    }
-                case PHASES.LOADANDROLL:
-                    {
-                        StartCoroutine(LoadAndRoll());
                         currentPhase = PHASES.PRIME1;
                         break;
                     }
@@ -158,26 +155,17 @@ public class SpacebarManager : MonoBehaviour {
     {
         mySpriteRenderer.enabled = false;
         ready = false;
-        //play sound
+        AkSoundEngine.PostEvent("GunLoad", gameObject);
         byte alpha = 0;
         while (alpha < 254)
         {
-            yield return new WaitForSeconds(.008f);
+            yield return new WaitForSeconds(.016f);
             sanityText.GetComponent<Text>().color = new Color32(50, 50, 50, alpha);
             sanityBar.GetComponent<Image>().color = new Color32(255, 255, 255, alpha);
             alpha++;
         }
+        yield return new WaitForSeconds (2f);
         revolver.SetActive(true);
-        yield return new WaitForSeconds (/*however long the prime takes)*/2f);
-        ready = true;
-        mySpriteRenderer.enabled = true;
-    }
-    IEnumerator LoadAndRoll()
-    {
-        mySpriteRenderer.enabled = false;
-        ready = false;
-        //play sound event
-        yield return new WaitForSeconds(/*however long the event takes)*/2f);
         ready = true;
         mySpriteRenderer.enabled = true;
     }
@@ -291,7 +279,7 @@ public class SpacebarManager : MonoBehaviour {
         sanityText.GetComponent<Text>().enabled = false;
         sanityBar.GetComponent<Image>().enabled = false;
         ready = false;
-        //play sound event
+        AkSoundEngine.PostEvent("Angel", heavenBG);
         byte alpha = 0;
         while (alpha < 195)
         {
@@ -299,7 +287,7 @@ public class SpacebarManager : MonoBehaviour {
             heavenBG.GetComponent<SpriteRenderer>().color = new Color32(255, 255, 255, alpha);
             alpha++;
         }
-        yield return new WaitForSeconds(/*however long the gregorian chant takes)*/12f);
+        yield return new WaitForSeconds(/*however long the gregorian chant takes)*/10.5f);
         alpha = 195;
         byte color = 95;
         while (alpha > 0)
@@ -310,13 +298,16 @@ public class SpacebarManager : MonoBehaviour {
         }
         while (color < 254)
         {
-            yield return new WaitForSeconds(.008f);
+            yield return new WaitForSeconds(.024f);
             insideBG.GetComponent<SpriteRenderer>().color = new Color32(color, color, color, 255);
             color++;
         }
         revolver.SetActive(false);
-        //play gun drop sound effect
+        AkSoundEngine.PostEvent("GunDrop", heavenBG);
         yield return new WaitForSeconds(/*however long the gun drop event takes)*/1.8f);
+
+        exit1.SetActive(true);
+        exit2.SetActive(true);
         this.GetComponentInParent<PlayerMovement>().restartPlayer();
     }
 }
