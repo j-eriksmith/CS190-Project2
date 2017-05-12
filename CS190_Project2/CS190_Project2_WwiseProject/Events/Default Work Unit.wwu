@@ -235,6 +235,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="AfterShot3" ID="{05E18B0C-BF0F-4CC6-9A51-2608D6D0624C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7F820F70-C324-486C-B767-94969993B736}" ShortID="724579601" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{EFF4DC36-98A0-4E06-9C60-409D8E2C91F4}" Global="false">
+									<ObjectRef Name="Man_Crying_After_Shot_3" ID="{FF6FEF80-1B81-4911-8159-70556808F2B4}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AfterShot4" ID="{9518A4A8-4E71-4D4C-8F86-915BCDE5A4E9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{09780358-6A23-4DA8-9030-2FF54CA5EF38}" ShortID="132674442" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D43A4530-7688-4B51-A3A4-57434F7AEF18}" Global="false">
+									<ObjectRef Name="Man_Breathing_1_After_Shot_4" ID="{2CF8B846-8660-4FC8-A485-5E165546060D}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
