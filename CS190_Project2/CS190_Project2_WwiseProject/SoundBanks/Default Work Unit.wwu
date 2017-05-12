@@ -49,6 +49,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="NormalWalk" ID="{7FCB024F-272B-4A57-BE3B-12258B45290C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="NormalWalk" ID="{3E186D55-985D-46A4-A3BD-6EBB7F0D65D0}" WorkUnitID="{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

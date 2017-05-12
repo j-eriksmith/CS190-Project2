@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	861287347	NormalWalk			\Default Work Unit\NormalWalk	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	532625405	Man_Walk_1_Intro	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Man_Walk_1_Intro_5C45A7DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Normal Walk\Man_Walk_1_Intro		117072
+	548331172	Man_Walk_1_Intro_01	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Man_Walk_1_Intro_92D83737.wem		\Actor-Mixer Hierarchy\Default Work Unit\Normal Walk\Man_Walk_1_Intro_01		115208
+	764890051	Man_Walk_1_Intro_03	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Man_Walk_1_Intro_F8A83AE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Normal Walk\Man_Walk_1_Intro_03		113960
+	892332498	Man_Walk_1_Intro_02	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Man_Walk_1_Intro_05BC9568.wem		\Actor-Mixer Hierarchy\Default Work Unit\Normal Walk\Man_Walk_1_Intro_02		120808
+	965702081	Man_Walk_1_Intro_05	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Man_Walk_1_Intro_C7FA9ECB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Normal Walk\Man_Walk_1_Intro_05		117072
+	1042254050	Man_Walk_1_Intro_04	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Man_Walk_1_Intro_9E460CBA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Normal Walk\Man_Walk_1_Intro_04		113340
+

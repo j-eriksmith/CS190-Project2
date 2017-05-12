@@ -5,6 +5,6 @@ Event	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	88141684	Angel_Wings_Flapping	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Angel_Wings_Flapping_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Angel_Wings_Flapping		944704
 	233630236	Angel_Gregorian_Chant	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Angel_Gregorian_Chant_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Angel_Gregorian_Chant		71861824
-	377905743	Gun_Drop	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Gun_Drop_B4B89FBA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun_Drop		274692
-	385712162	Angel_Holy_Sound	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Holy Sound_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Angel_Holy_Sound		10750528
+	377905743	Gun_Drop	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Gun_Drop_22C1240A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun_Drop		274692
+	385712162	Angel_Holy_Sound	D:\Github\CS190-Project2\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Holy Sound_0D536D0A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Angel_Holy_Sound		10750528
 

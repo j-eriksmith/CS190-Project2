@@ -60,6 +60,40 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="861287347" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\NormalWalk</ObjectPath>
+			<ShortName>NormalWalk</ShortName>
+			<Path>NormalWalk.bnk</Path>
+			<IncludedEvents>
+				<Event Id="861287347" Name="NormalWalk" ObjectPath="\Events\Default Work Unit\NormalWalk"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="532625405" Language="SFX">
+					<ShortName>Man_Walk_1_Intro.wav</ShortName>
+					<Path>SFX\Man_Walk_1_Intro_5C45A7DD.wem</Path>
+				</File>
+				<File Id="548331172" Language="SFX">
+					<ShortName>Man_Walk_1_Intro.wav</ShortName>
+					<Path>SFX\Man_Walk_1_Intro_92D83737.wem</Path>
+				</File>
+				<File Id="764890051" Language="SFX">
+					<ShortName>Man_Walk_1_Intro.wav</ShortName>
+					<Path>SFX\Man_Walk_1_Intro_F8A83AE3.wem</Path>
+				</File>
+				<File Id="892332498" Language="SFX">
+					<ShortName>Man_Walk_1_Intro.wav</ShortName>
+					<Path>SFX\Man_Walk_1_Intro_05BC9568.wem</Path>
+				</File>
+				<File Id="965702081" Language="SFX">
+					<ShortName>Man_Walk_1_Intro.wav</ShortName>
+					<Path>SFX\Man_Walk_1_Intro_C7FA9ECB.wem</Path>
+				</File>
+				<File Id="1042254050" Language="SFX">
+					<ShortName>Man_Walk_1_Intro.wav</ShortName>
+					<Path>SFX\Man_Walk_1_Intro_9E460CBA.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="954941472" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Angel</ObjectPath>
 			<ShortName>Angel</ShortName>
@@ -79,11 +113,11 @@
 				</File>
 				<File Id="377905743" Language="SFX">
 					<ShortName>Gun_Drop.wav</ShortName>
-					<Path>SFX\Gun_Drop_B4B89FBA.wem</Path>
+					<Path>SFX\Gun_Drop_22C1240A.wem</Path>
 				</File>
 				<File Id="385712162" Language="SFX">
 					<ShortName>Holy Sound.wav</ShortName>
-					<Path>SFX\Holy Sound_9E69E797.wem</Path>
+					<Path>SFX\Holy Sound_0D536D0A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

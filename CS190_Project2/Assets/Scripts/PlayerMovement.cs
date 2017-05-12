@@ -14,10 +14,10 @@ public class PlayerMovement : MonoBehaviour
     private bool canMove = true;
     private int walkSoundResetInside = 35;
     private int walkSoundCDInside = 35;
-    private int walkSoundResetOutside = 10;
-    private int walkSoundCDOutside = 10;
+    private int walkSoundResetOutside = 15;
+    private int walkSoundCDOutside = 15;
 
-    public float moveSpeed = 5f;
+    public float moveSpeed = 3.5f;
 
     // Use this for initialization
     void Start()
@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
                 {
                     if (walkSoundCDOutside <= 0)
                     {
-                        AkSoundEngine.PostEvent("StaggeredWalk", gameObject); // replace with actual walk
+                        AkSoundEngine.PostEvent("NormalWalk", gameObject);
                         walkSoundCDOutside = walkSoundResetOutside;
                     }
                 }

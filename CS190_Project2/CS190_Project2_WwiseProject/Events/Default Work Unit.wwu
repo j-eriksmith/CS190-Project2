@@ -130,8 +130,8 @@
 					<ChildrenList>
 						<Action Name="Play" ID="{953410A4-3A0B-4975-B90D-DE8D88346E91}" ShortID="414685346" Type="Play" Scope="One" Global="false">
 							<PropertyList>
-								<Property Name="FadeCurve" Type="int16" Value="0"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="FadeCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="4.5"/>
 							</PropertyList>
 							<ElementList>
 								<Element ID="{658FF55C-F9ED-4BD0-895E-6552806EB3A4}" Global="false">
@@ -141,8 +141,8 @@
 						</Action>
 						<Action Name="Play" ID="{56C8A7BF-E87A-4972-B109-B031AB9B3BD6}" ShortID="670332976" Type="Play" Scope="One" Global="false">
 							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3.4"/>
 								<Property Name="FadeCurve" Type="int16" Value="7"/>
-								<Property Name="FadeTime" Type="Real64" Value="1.9"/>
 							</PropertyList>
 							<ElementList>
 								<Element ID="{2D2D731D-6C63-4A9E-B31C-C7D8F6BA5D52}" Global="false">

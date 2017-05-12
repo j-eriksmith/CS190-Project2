@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID DOOR_OPEN = 535830432U;
         static const AkUniqueID GUNDROP = 2580476902U;
         static const AkUniqueID GUNLOAD = 1086856521U;
+        static const AkUniqueID NORMALWALK = 861287347U;
         static const AkUniqueID STAGGEREDBREATHING = 396110729U;
         static const AkUniqueID STAGGEREDWALK = 500663170U;
         static const AkUniqueID STOPVIOLA = 1547882492U;
@@ -31,6 +32,7 @@ namespace AK
         static const AkUniqueID ANGEL = 954941472U;
         static const AkUniqueID DOOROPEN = 1404805401U;
         static const AkUniqueID GUNLOAD = 1086856521U;
+        static const AkUniqueID NORMALWALK = 861287347U;
         static const AkUniqueID STAGGEREDWALK = 500663170U;
         static const AkUniqueID VIOLA = 3135074692U;
         static const AkUniqueID WINDBLAST = 473983015U;

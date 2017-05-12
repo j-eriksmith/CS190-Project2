@@ -812,6 +812,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Holy Sound" ID="{03E1E752-EC13-43CB-9A74-23FC3394BDA8}" ShortID="385712162">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="6.80174927113715E-02"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Holy Sound.wav</AudioFile>
 						</AudioFileSource>

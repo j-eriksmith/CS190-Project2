@@ -21,10 +21,11 @@
 	<Platform GUID="{3C91ED0B-5009-4D1D-8AFE-3D522CF19CFD}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Angel" Hash="544451193" Timestamp="131390240181986961"/>
+				<File Name="Angel" Hash="3895134916" Timestamp="131390260896566865"/>
 				<File Name="DoorOpen" Hash="2513048090" Timestamp="131388738666181365"/>
-				<File Name="GunLoad" Hash="2361574129" Timestamp="131390217939038496"/>
+				<File Name="GunLoad" Hash="2361574129" Timestamp="131390252405398885"/>
 				<File Name="Init" Hash="3806675398" Timestamp="131388736279570222"/>
+				<File Name="NormalWalk" Hash="695142131" Timestamp="131390251240820263"/>
 				<File Name="StaggeredWalk" Hash="787149591" Timestamp="131390222751598674"/>
 				<File Name="Viola" Hash="1449981221" Timestamp="131390222750350662"/>
 				<File Name="WindBlast" Hash="2406990431" Timestamp="131389627884621840"/>
@@ -32,7 +33,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2873058521" Timestamp="131390240182107224"/>
+				<File Name="" Hash="1334945225" Timestamp="131390260896752041"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
