@@ -174,7 +174,7 @@
 						<Action Name="Play" ID="{E7E49588-8AC2-44F8-B0CA-E516D04F238A}" ShortID="382593641" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{F6CC80FF-85ED-4533-A515-8083371427BF}" Global="false">
-									<ObjectRef Name="Gun_Cock" ID="{B5A3501E-FB89-4023-8D31-F2D6497E85F1}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+									<ObjectRef Name="Gun_Cock" ID="{A1FA5C88-C3A3-45AB-B68A-B1490A8AE6D4}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
 								</Element>
 							</ElementList>
 						</Action>
