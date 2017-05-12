@@ -168,6 +168,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="GunCock" ID="{CDD5BC75-D434-44B4-AF14-4F51BA07FB2E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E7E49588-8AC2-44F8-B0CA-E516D04F238A}" ShortID="382593641" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F6CC80FF-85ED-4533-A515-8083371427BF}" Global="false">
+									<ObjectRef Name="Gun_Cock" ID="{A1FA5C88-C3A3-45AB-B68A-B1490A8AE6D4}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GunFireBlank" ID="{C88CBEAD-E297-4453-9653-213B43C0948B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{81D94B5F-6863-49D3-865F-7F59A0AFDDA0}" ShortID="955624191" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{FE77816F-A93E-4280-8022-697BEEA3EF7A}" Global="false">
+									<ObjectRef Name="Gun_Fire_Blank" ID="{679FAC7E-3EC7-4517-88B0-585BC07BA798}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NormalWalk" ID="{3E186D55-985D-46A4-A3BD-6EBB7F0D65D0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D39DAF17-377E-4969-8167-73FCD3ADAD52}" ShortID="670228873" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F27F2E48-9937-4D4D-BFCD-919FB60D3520}" Global="false">
+									<ObjectRef Name="Normal Walk" ID="{0635CB01-2101-4963-A855-BB037BD71666}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

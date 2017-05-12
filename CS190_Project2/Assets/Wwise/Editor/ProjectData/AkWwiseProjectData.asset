@@ -16,9 +16,19 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9B7DA2F4-51EE-42C0-97D9-9732A624E7BD}'
-    m_lastTimePsrt1: -1420303149
-    m_lastTimePart2: -1999333305
+    m_lastTimePsrt1: 866686510
+    m_lastTimePart2: -1999333190
     List:
+    - Name: Angel
+      Path: Default Work Unit\Angel
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Angel
+        ObjectType: 3
+      ID: 954941472
+      Guid: d7f2e5f737a9ca46a5cb2e9ff8aa05f0
+      maxAttenuation: 0
     - Name: Door_Open
       Path: Default Work Unit\Door_Open
       PathAndIcons:
@@ -28,6 +38,16 @@ MonoBehaviour:
         ObjectType: 3
       ID: 535830432
       Guid: 8bb50f4303d25243b83d58a3b0ce39bf
+      maxAttenuation: 0
+    - Name: GunLoad
+      Path: Default Work Unit\GunLoad
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: GunLoad
+        ObjectType: 3
+      ID: 1086856521
+      Guid: 430525c4e0bb5d48b3aa1c71feb3479a
       maxAttenuation: 0
     - Name: StaggeredBreathing
       Path: Default Work Unit\StaggeredBreathing
@@ -93,29 +113,29 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{09587C57-F196-430F-B5AB-00FE1FF70495}'
-    m_lastTimePsrt1: -1826483865
-    m_lastTimePart2: -1999334556
+    m_lastTimePsrt1: 1821814746
+    m_lastTimePart2: -1999334539
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{6F1BB346-FA0F-448A-90F3-801F6B73B2D0}'
-    m_lastTimePsrt1: -1825713122
-    m_lastTimePart2: -1999334556
+    m_lastTimePsrt1: 1823205374
+    m_lastTimePart2: -1999334539
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{4757703F-A265-4CF1-A00B-674BE893FEEC}'
-    m_lastTimePsrt1: -1826293678
-    m_lastTimePart2: -1999334556
+    m_lastTimePsrt1: 1823205374
+    m_lastTimePart2: -1999334539
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{B1A00576-5058-43C9-8A27-86DB1748CC7E}'
-    m_lastTimePsrt1: 343700360
-    m_lastTimePart2: -1999333305
+    m_lastTimePsrt1: 617465055
+    m_lastTimePart2: -1999333201
     List:
     - Name: DoorOpen
       Path: Default Work Unit\DoorOpen
