@@ -257,6 +257,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Shivering" ID="{2DACC475-B0E2-4900-BCB6-C69EB565E4F0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F892C1F9-41B9-459C-A978-9914C49FD898}" ShortID="1046281384" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B03E7A12-4AF1-4F17-9003-09057F0F15CA}" Global="false">
+									<ObjectRef Name="Man_Shivering" ID="{03CC4633-9E10-4BC8-BCEB-EF0D2DEA1140}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
