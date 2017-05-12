@@ -130,8 +130,8 @@
 					<ChildrenList>
 						<Action Name="Play" ID="{953410A4-3A0B-4975-B90D-DE8D88346E91}" ShortID="414685346" Type="Play" Scope="One" Global="false">
 							<PropertyList>
-								<Property Name="FadeCurve" Type="int16" Value="7"/>
-								<Property Name="FadeTime" Type="Real64" Value="4.5"/>
+								<Property Name="FadeCurve" Type="int16" Value="0"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ElementList>
 								<Element ID="{658FF55C-F9ED-4BD0-895E-6552806EB3A4}" Global="false">
@@ -141,8 +141,8 @@
 						</Action>
 						<Action Name="Play" ID="{56C8A7BF-E87A-4972-B109-B031AB9B3BD6}" ShortID="670332976" Type="Play" Scope="One" Global="false">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="3.4"/>
 								<Property Name="FadeCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.9"/>
 							</PropertyList>
 							<ElementList>
 								<Element ID="{2D2D731D-6C63-4A9E-B31C-C7D8F6BA5D52}" Global="false">
@@ -174,7 +174,7 @@
 						<Action Name="Play" ID="{E7E49588-8AC2-44F8-B0CA-E516D04F238A}" ShortID="382593641" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{F6CC80FF-85ED-4533-A515-8083371427BF}" Global="false">
-									<ObjectRef Name="Gun_Cock" ID="{A1FA5C88-C3A3-45AB-B68A-B1490A8AE6D4}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+									<ObjectRef Name="Gun_Cock" ID="{B5A3501E-FB89-4023-8D31-F2D6497E85F1}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -208,6 +208,28 @@
 							<ElementList>
 								<Element ID="{B4F2DD44-CD26-4D93-8321-ED6EC31AD2AF}" Global="false">
 									<ObjectRef Name="Gun_Drop" ID="{3304FF4E-CA33-4AA1-A9D6-20EC7598F364}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AfterShot1" ID="{DD637566-DBFD-42FC-9518-475FBEEB56B0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D05C699D-2BBD-4C27-ABC5-53FFF41F575B}" ShortID="209498232" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7C771E8A-D94B-4AA5-AF1F-92E1D54C37F3}" Global="false">
+									<ObjectRef Name="Man_Breathing_1_After_Shot_1" ID="{58A9BBFE-2B9B-4A5F-9E46-96AFE40DBC90}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AfterShot2" ID="{F5D10224-4EB2-4C88-BD9C-78CC56035A93}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C951B3B1-701F-414B-9946-A558F292A4B0}" ShortID="216726676" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2138E686-8F48-40A3-86DA-EC76E513B385}" Global="false">
+									<ObjectRef Name="Man_Breathing_1_After_Shot_2" ID="{E7D34B29-8FC7-45A2-8855-9C668CF35AE5}" WorkUnitID="{E61800C5-31DA-41DD-BBB6-D91D74954137}"/>
 								</Element>
 							</ElementList>
 						</Action>
